@@ -1,0 +1,17 @@
+{
+    "name": "Masamune",
+    "description": "Another lightweight discord library, mainly used by my public bot.",
+    "author": "Hugo Holmqvist",
+    "version": "1.0.0",
+    "main": "./index.js",
+    "license": "MIT",
+    "dependencies": {
+        "uws": "*"
+    },
+    "optionalDependencies": {
+        "mocha": "*"
+    },
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha"
+    }
+}
