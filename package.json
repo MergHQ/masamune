@@ -9,7 +9,8 @@
         "uws": "*"
     },
     "optionalDependencies": {
-        "mocha": "*"
+        "mocha": "*",
+        "erlpack":"git+github.com/hammerandchisel/erlpack"
     },
     "scripts": {
         "test": "node node_modules/mocha/bin/mocha"
