@@ -3,12 +3,12 @@
 
 This reponds to `Hello!` with `Hello :username`.
 ```javascript
-const Muramasa = require('muramasa');
-const client = new Muramasa.Client('token');
+const Masamune = require('masamune');
+const client = new Masamune.Client('token');
 
 client.on('MESSAGE_CREATE', msg => {
   if (msg.content === 'Hello!')
-    client.callApi(Muramasa.Endpoints.createMessage(msg.channel_id, 
+    client.callApi(Masamune.Endpoints.createMessage(msg.channel_id, 
       {data: { content: `Hello ${msg.author.username}`}});
 });
 
